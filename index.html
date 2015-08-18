@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>KC LAND</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="./js/jquery.onepage-scroll.js"></script>
+  <link href='./css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+  <link href='./css/kcland.css' rel='stylesheet' type='text/css'>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">  
+
+  <style>
+
+	</style>
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+		function kcmoveto(pageinext){
+      $(".main").moveTo(pageinext);
+    }
+	</script>
+</head>
+<body>
+  <div class="wrapper">
+	  <div class="main">
+	    
+      <section class="page1">
+        <div class="page_container">
+                <div>
+                <div class="container">
+                <div class="kclogo">
+                  <img src="./img/logo.png">
+                </div>
+                </br>
+                <h1>凯希集团</h1>
+                <p class="kc-p">凯希集团不是单纯的做交易而是设计Business Story。</p>
+                <button class="btn btn-warning" type="submit" onClick="kcmoveto(2)">关于我们</button>
+                </div>
+      </div>
+  	    </div>
+      </section>
+	    
+	    <section class="page2">
+	      <div class="page_container">
+
+	      </div>
+      </section>
+	    
+	    <section class="page3">
+	      <div class="page_container">
+
+  	    </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
