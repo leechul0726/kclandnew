@@ -5,8 +5,7 @@
 	<title>KC LAND</title>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script type="text/javascript" src="./js/jquery.onepage-scroll.js"></script>
-  <script type="text/javascript" src="./js/jquery-ui.min.js"></script>
-  
+  <script src="./js/jquery-ui.js"></script>
   <link href='./css/onepage-scroll.css' rel='stylesheet' type='text/css'>
   <link href='./css/kcland.css' rel='stylesheet' type='text/css'>
   <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -26,8 +25,9 @@
     };
 
     $(document).ready(function(){
-      $("#kcland1").fadeIn(10000);
+      //$("#kcland1").fadeIn(10000);
       //$("#kcland1").show( "fold", 1000 );
+      $("#kcland1").show("fold", 2000);
     });
 	</script>
 </head>
@@ -37,29 +37,40 @@
 	    
       <section class="page1">
         <div class="page_container">           
-                <div class="kclogo">
-                  <img src="./img/logo.png">
-                </div>
-                </br> 
-                <div id="kcland1" style="display:none;">
-                <h1>凯希集团</h1>
-                <p class="kc-p">凯希集团不是单纯的做交易而是设计Business Story。</p>
-                <button class="btn btn-warning" type="submit" onClick="kcmoveto(2)">关于我们</button>
-                </div>
-                </div>
-
-      </div>
-  	    </div>
+          <div class="kclogo">
+            <img src="./img/logo.png">
+          </div>
+            </br> 
+          <div id="kcland1" style="display:none;">
+            <h1>凯希集团</h1>
+              <p class="kc-p">凯希集团不是单纯的做交易而是设计Business Story。</p>
+              <button class="btn btn-warning" type="submit" onClick="kcmoveto(2)">关于我们</button>
+          </div>
+        </div>
       </section>
 	    
 	    <section class="page2">
-	      <div class="page_container">
-        
+        <div class="page_container"> 
+          <div class="kcpage2">
+            <h1>ABOUT US</h1>
+            <div class="page2_left">
+            <p>凯希集团成立于2008年5月22日，注册资金一亿。</p>
+            <p>业务范围包括大型活动及展会，研修培训，电影，电视，广告制作及流通，动漫进出口供应，旅游业。</p>
+            <p>凯希集团在商务信息平台里全新打造韩流信息与中国人际网络世界</p>
+            <p>韩流内容的信息及共同研发Know-How,打造中韩文化影视交流平台，与您共同开发文化事业。</p>
+
+            </div>
+            <div class="page2_right">
+            <img src="./img/range.png">
+
+            </div>
+          </div>
+        </div>
       </section>
 	    
 	    <section class="page3">
 	      <div class="page_container">
-
+            fdasfadsfadsfasdf
   	    </div>
       </section>
     </div>

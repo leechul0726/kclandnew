@@ -10,6 +10,7 @@
       margin: 0;
       height: 100%;
       -webkit-font-smoothing: antialiased;
+      color: #FFF;
     }
     
     .wrapper {
@@ -250,7 +251,7 @@
       text-align: center;
     }
     .main section.page2 {
-      background: #555557 url(back-phone.png) no-repeat center -150px ;
+      background-image:url(../img/background1.jpg);
     }
     .main section.page2 > img {
       position: absolute;
@@ -259,7 +260,6 @@
       margin-left: -1095px;
     }
     .main section.page2 .page_container {
-      margin-top: 240px;
       overflow: hidden;
     }
     .main section.page2 h1 {
@@ -269,6 +269,7 @@
       font-size: 50px;
       letter-spacing: -1px;
       color: white;
+      font-weight: bold;
     }
     .main section.page2 h2 {
       color: rgba(255,255,255,0.85);
@@ -402,5 +403,32 @@ margin-left: 20%;
   text-align: center;
 }
 .kcnav img{width: 80px; height: 80px;}
+.kcpage2{
+  padding-top: 10px; 
+  text-align: top;
+}
+.kcpage2 h1{
+  font-size: 100px;
+}
+.page2_left{
+  float: left;
+  width: 48%;
+  vertical-align: left;
+  text-align: left;
+  color: white;
+  padding-left: 10%;
+  padding-top:3%;
+  font-size: 20px;
+}
+
+.page2_right{
+  float: right;
+  width: 48%;
+  vertical-align: right;
+  text-align: right;
+  color: white;
+  padding-right: 10%;
+  padding: 3%;
+}
 
 
