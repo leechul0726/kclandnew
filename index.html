@@ -5,13 +5,12 @@
 	<title>KC LAND</title>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script type="text/javascript" src="./js/jquery.onepage-scroll.js"></script>
+  <script type="text/javascript" src="./js/jquery-ui.min.js"></script>
+  
   <link href='./css/onepage-scroll.css' rel='stylesheet' type='text/css'>
   <link href='./css/kcland.css' rel='stylesheet' type='text/css'>
   <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <link href="./css/bootstrap.min.css" rel="stylesheet">  
-
   <style>
-
 	</style>
 	<script>
 	  $(document).ready(function(){
@@ -21,9 +20,15 @@
         loop: true
       });
 		});
-		function kcmoveto(pageinext){
+
+    function kcmoveto(pageinext){
       $(".main").moveTo(pageinext);
-    }
+    };
+
+    $(document).ready(function(){
+      $("#kcland1").fadeIn(10000);
+      //$("#kcland1").show( "fold", 1000 );
+    });
 	</script>
 </head>
 <body>
@@ -31,25 +36,25 @@
 	  <div class="main">
 	    
       <section class="page1">
-        <div class="page_container">
-                <div>
-                <div class="container">
+        <div class="page_container">           
                 <div class="kclogo">
                   <img src="./img/logo.png">
                 </div>
-                </br>
+                </br> 
+                <div id="kcland1" style="display:none;">
                 <h1>凯希集团</h1>
                 <p class="kc-p">凯希集团不是单纯的做交易而是设计Business Story。</p>
                 <button class="btn btn-warning" type="submit" onClick="kcmoveto(2)">关于我们</button>
                 </div>
+                </div>
+
       </div>
   	    </div>
       </section>
 	    
 	    <section class="page2">
 	      <div class="page_container">
-
-	      </div>
+        
       </section>
 	    
 	    <section class="page3">
